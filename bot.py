@@ -20,7 +20,7 @@ import tarfile
 import tempfile
 import threading
 import time
-import tracebac
+import traceback
 import zipfile
 from collections import defaultdict, deque
 from datetime import datetime, timedelta, timezone
