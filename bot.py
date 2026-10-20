@@ -668,11 +668,11 @@ _TZ_INDEX_DATA = (
 
 PLAN_LIMITS: Dict[str, Dict[str, Any]] = {
     "free":       {"name": "Free",       "max_bots": 2,   "ram": 128,  "auto_restart": False, "price": 0,    "days": 0},
-    "starter":    {"name": "Starter",    "max_bots": 4,   "ram": 256,  "auto_restart": True,  "price": 99,   "days": 30},
-    "basic":      {"name": "Basic",      "max_bots": 6,  "ram": 512,  "auto_restart": True,  "price": 199,  "days": 30},
-    "pro":        {"name": "Pro",        "max_bots": 8,  "ram": 2048, "auto_restart": True,  "price": 499,  "days": 30},
-    "enterprise": {"name": "Enterprise", "max_bots": 10,  "ram": 4096, "auto_restart": True,  "price": 999,  "days": 30},
-    "lifetime":   {"name": "Lifetime",   "max_bots": 15, "ram": 8192, "auto_restart": True,  "price": 1999, "days": 36500},
+    "starter":    {"name": "Starter",    "max_bots": 5,   "ram": 256,  "auto_restart": True,  "price": 99,   "days": 30},
+    "basic":      {"name": "Basic",      "max_bots": 10,  "ram": 512,  "auto_restart": True,  "price": 199,  "days": 30},
+    "pro":        {"name": "Pro",        "max_bots": 15,  "ram": 2048, "auto_restart": True,  "price": 499,  "days": 30},
+    "enterprise": {"name": "Enterprise", "max_bots": 20,  "ram": 4096, "auto_restart": True,  "price": 999,  "days": 30},
+    "lifetime":   {"name": "Lifetime",   "max_bots": 25, "ram": 8192, "auto_restart": True,  "price": 1599, "days": 36500},
 }
 
 PAYMENT_METHODS: Dict[str, Dict[str, Any]] = {
