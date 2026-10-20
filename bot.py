@@ -537,7 +537,7 @@ KEYRING_FILE  = DIRS["data"] / "keyring.json"   # tiny local cache only
 # ┌──────────────────────────────────────────────────────────────┐
 # │  BOT TOKEN  add karo.   ││
 # └──────────────────────────────────────────────────────────────┘
-BOT_TOKEN_HARDCODED = "8537870085:AAEuZ5Aj4SoQnVFvy8WQSVNRdqRAb9LMwwk"   # ← ADD BOT TOKEN
+BOT_TOKEN_HARDCODED = "8919181585:AAH1ERr9bRRJYdNAkmXrIKUljSwlF4PJAWA"   # ← ADD BOT TOKEN
 TOKEN = (
     os.environ.get("BOT_TOKEN")
     or os.environ.get("MAIN_BOT_TOKEN")
@@ -552,7 +552,7 @@ except (TypeError, ValueError):
 if not TOKEN:
     sys.exit(
         " BOT TOKEN Variables me BOT_TOKEN add karo "
-        "(value = 8537870085:AAEuZ5Aj4SoQnVFvy8WQSVNRdqRAb9LMwwk), fir Redeploy karo."
+        "(value = 8919181585:AAH1ERr9bRRJYdNAkmXrIKUljSwlF4PJAWA), fir Redeploy karo."
     )
 # OWNER_ID is optional. If not set, the very first user to send /start
 # automatically becomes the panel owner and is persisted to settings.
